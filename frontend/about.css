@@ -1,0 +1,137 @@
+.about-hero{
+    padding: 120px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.5rem;
+    height: 50vh;
+    background-image: url(/images/releif.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+}
+.about-hero h1{
+    font-size: 50px;
+}
+.about-hero p{
+    font-size: large;
+}
+.our-story{
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+.story{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+.story-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.5rem;
+    max-width: 600px;
+}
+.story video{
+    width: 500px;
+    border-radius: 10px;
+}
+.visson-mission{
+    display: flex;
+    padding: 4rem 0;
+    gap: 20px;
+    width: 100%;
+}
+.vm-card{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.5rem;
+    box-shadow: rgba(0,0,0,0.15) 0px 5px 15px;
+    border-radius: 10px;
+    background: white;
+    transition: 0.4s;
+}
+.vm-card:hover{
+    transform: translateY(-20px);
+}
+.vm-card h1{
+    display: flex;
+    gap: 10px;
+}
+.vm-card p{
+    color: #777;
+}
+.team-members{
+    width: 100%;
+    padding: 4rem 1.5rem;
+    margin-top: 50px;
+    text-align: center;
+    background:#f1f5ff;
+}
+
+.team-title{
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 3rem;
+    letter-spacing: 1px;
+}
+
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.member{
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.15) 0px 5px 15px;
+    padding: 2rem 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member:hover{
+    transform: translateY(-8px);
+    box-shadow: rgba(0,0,0,0.25) 0px 8px 20px;
+}
+
+.member-img{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #f72525; 
+}
+
+.member-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.member-details h3{
+    margin-top: 15px;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.member-details p{
+    color: #777;
+    margin-top: 5px;
+    font-size: 0.95rem;
+}

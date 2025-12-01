@@ -1,0 +1,120 @@
+section {
+    padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+/* HERO SECTIONS */
+.relief-hero1 {
+    background-image: url(/images/releif.jpeg);
+    height: 80vh;
+}
+
+.relief-hero2 {
+    background-image: url(/images/releif1.jpeg);
+    height: 80vh;
+}
+
+/* CARD */
+.relief-card {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: fit-content;
+    max-width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
+    animation: fadeIn 0.8s ease;
+}
+
+.relief-card .card-icon {
+    background: #e67a00;
+    padding: 20px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relief-icon {
+    font-size: 4.5rem;
+    color: white;
+}
+
+.relief-card .donate-btn {
+    background: #e67a00;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* DESCRIPTION */
+.description {
+    max-width: 900px;
+    margin: auto;
+    gap: 2rem;
+}
+
+.description p {
+    color: #444;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+}
+
+.description video {
+    border-radius: 20px;
+    width: 90%;
+}
+
+/* ACHIEVEMENTS */
+.program-acheivements {
+    gap: 4rem;
+}
+
+.acheivements-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.acheivement-card {
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: rgba(0,0,0,0.15) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.acheivement-card:hover {
+    transform: translateY(-10px);
+}
+
+.acheivement-card .icon {
+    font-size: 5rem;
+    color: #e67a00;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
